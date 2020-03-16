@@ -1,0 +1,9 @@
+<h1>Upload file</h1>
+
+<form action="/upload" enctype="multipart/form-data" method="post">
+<div><input type="file" multiple name="uploaded"/></div>
+<div><input type="password" name="password"/></div>
+<div><input type="radio" name="action" value="encrypt" id="encrypt" checked/><label for="encrypt">encrypt</label></div>
+<div><input type="radio" name="action" value="decrypt" id="decrypt"/><label for="decrypt">decrypt</label></div>
+<div><input type="submit" value="Save"></div>
+</form>
