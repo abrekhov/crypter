@@ -52,6 +52,7 @@ func main() {
 		log.Print("Server failed...")
 	}
 }
+
 func MainHandler(w http.ResponseWriter, r *http.Request) {
 	t, err := template.ParseFiles("views/main.html")
 	if err != nil {
